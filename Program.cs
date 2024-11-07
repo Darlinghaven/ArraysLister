@@ -45,7 +45,7 @@
                 while (!isValidInput)
                 {
                     // Giv brugeren mulighed for at svare på spørgsmålet.
-                    Console.WriteLine("Your answer (enter the number 1, 2, 3, or 4): ");
+                    Console.WriteLine("Your answer (enter the number 1, 2, 3, or 4): \n");
 
                     /* Forsøg at konvertere/parse brugerens svar til et tal. out bruges til at lagre resultatet as konverteringen. 
                        Hvis konverteringen er succesfuld tildeler programmet værdien til userChocice variablen. && forbinder vestre 
@@ -59,19 +59,19 @@
                         if (userChoice == correctAnswers[i])
                         {
                             // Hvis svaret er korrekt får brugeren en bekræftelse på at svaret er rigtigt og der tilføjes 1 til score variablen.
-                            Console.WriteLine("Correct!\n");
+                            Console.WriteLine("\nCorrect!\n");
                             score++;
                         }
                         else
                         {
                             // Hvis svaret er forkert får brugeren en besked.
-                            Console.WriteLine("Incorrect.\n");
+                            Console.WriteLine("\nIncorrect...\n");
                         }
                     }
                     else
                     {
                         // Fejlbesked ved ugyldigt input
-                        Console.WriteLine("Invalid input. Please enter a number between 1 and 4.\n");
+                        Console.WriteLine("\nInvalid input. Please enter a number between 1 and 4.\n");
                     }
                 }
             }
