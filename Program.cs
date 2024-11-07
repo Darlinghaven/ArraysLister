@@ -58,7 +58,7 @@
                         // Sammenhold brugerens svar med det korrekte svar
                         if (userChoice == correctAnswers[i])
                         {
-                            // Hvis svaret er korrekt tilføjes 1 til score variablen og brugeren får en bekræftelse på at svaret er rigtigt.
+                            // Hvis svaret er korrekt får brugeren en bekræftelse på at svaret er rigtigt og der tilføjes 1 til score variablen.
                             Console.WriteLine("Correct!\n");
                             score++;
                         }
